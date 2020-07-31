@@ -160,7 +160,10 @@ a:hover{
     text-transform: uppercase;
 }
 
-
+.illustrations_texte{
+    width: 80%;
+    margin: 8%
+}
 
 .rose{
     width: 40%;
