@@ -322,8 +322,19 @@ margin-top:30px}
         margin-bottom: 5%;
     }
     
-    .rose{height: 40%;
+    .rose{
+        height: 40%;
     width: 40%}
+    
+    .baou{
+        height:40%;
+        width: 40%;}
+    
+    .quinson{
+        height: 40%;
+    width: 40%
+}
+    
 }
 
 @media all and (max-width: 576px){
