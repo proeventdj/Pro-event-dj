@@ -1,0 +1,70 @@
+pour creer le répertoire on tape mkdir le nom du repertoire qui contient le projet
+
+rentrer dans le repertoire cd "le nom du répertoire"
+
+git status une commande qui va me dire ce qu'il se passe sur mon projet
+
+initialiser git avec git init pour pouvoir  demander un status global de mes fichiers pour savoir ou on en est.
+
+git status pour voir ou on en est
+
+git branch pour crrer une branche
+
+git checkout pour changer de branche
+
+git dif montre les changement dans le code
+
+git merge pour rapatrier la branche dans master
+le merge crée un comit
+
+Présentation de Git : 
+
+git c'est l'outil en ligne de commande pour versionner nos fichiers
+github c'est une application web qui va nous aider à partager notre code
+
+Git est un logiciel de versioning 
+Un logiciel de versioning, ou logiciel de gestion de version est un logiciel qui permet de conserver un historique des modifications effectuées sur un projet afin de pouvoir rapidement identifier les changements effectuées et de revenir à une ancienne version en cas de problème.
+
+
+
+il permet  de travailler en équipe traquer les version ,  et garder un historique
+
+ça permet de savoir qui à modifier le fichier , quand le fichier a été modifié qu'est qu'on a apporté comme modification et pourquoi on a modifié ce fichier.
+
+une fois que guit est instalé on va devoir ouvrir un terminal c'est une sorte d'application minimaliste qu'on va ouvrir dans laquelle on va dialoguer en ligne de commande
+
+d'ailleurs la premiere chose a faire dans quand on initialise guit c'est de rentrer son nom et son prénom et son email
+l'outil permet de versioner  vos fichiers , versionner vos modications dans le temps , et il va attacher votre identité à chaque fois que vous aurez versionné
+
+
+une fois que vous avez travailler sur votre code vous faites 
+un commit avec une petite phrase de ce que vous avez modifié. c'est une photographie de l'etat de notre projet
+git ad git commit etc on peut les faire sans etre connecté à internet
+je peux travailler dans mon coin et quelqu'un d'autre peut travailler dans son coin sur les meme fichiers il n'y aura pas de conflits
+
+l'avantage c'est qu'au lieu de travailler sur l'axe maitre le master on peut travailler en parallèle sur une branche pour pas gener ceux qui bossent sur le master justement.Si vous voulez faire quelques choses d'expérimental , que vous voulez tester un peu vous pouvez demandez a git de creer une branche et de revenir sur votre master sans l'avoir polluer
+
+Si deux developpeur change la meme ligne git signal  un conflit (il le montre dans la ligne de code )qu'il faut résoudre humainement
+
+une fois que vous avez fini votre code vous supprimez vos branches
+si vous voulez supprimer une branche non mergé git prévient  
+
+une fois que vous avez fait vos changement vous les pousser "push" sur un serveur distant "github"
+
+pour ça il faut faire un répertoire "repository" sur github
+
+vous pouvez pusher le master ou une branche.
+à l'inverse vous pouvez récupérer le travaille d'un collègue avec pull
+
+Si jamais ça vous parait compliqué git a développé une application desktop dispo pour ma cet windows qui vous donnera exactement les meme resultat
+l'avantge de la ligne de commande c'est qu'on va plus vite
+
+sur github vous retrouvez tous les commits qui sont fait pour votre projet avec qui a travaillé sur quoi 
+les branches 
+les realases si vous avez un logiciel et que vous voulez proposer des téléchargements
+vous avez les contributeurs aussi ca  les personnes qui ont travaillé sur le projet et leur volume de travaille
+issues pour rapporter des bug
+y'a un wiki si vous voulez faire de la doc sur votre projet
+y'a les graphics qui vous montre le volume de travail des contributeurs, la frequentation du site , les comits dans le temps , le nombre de ligne ajouté dans le temps
+
+après une fois que vous etes satifait de votre code vous pouvez lhéberger sur github page donc l'adresse est directement proposé dans les setting. C'est totalement gratuit .Donc ça vous fait un site fonctionnel rapidement . Ca permet aussi de voir physiquement et instentanement les changements. Comme pour la responsive ça permet de voir en temps reel si votre site réagit comme vous le souhaitez

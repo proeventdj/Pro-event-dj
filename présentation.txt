@@ -1,0 +1,102 @@
+<!--html-->
+
+
+
+site statique :pas de base de données qui devrait vous suffir
+site dinamyques, creer une base de données , securiser .
+
+
+
+mon cv est divisé en 2 partie avec une partie disons contact et une partie expérience
+a droite les service proposé portfolio avec des réalisions
+a la place reco on peut fair eun livre d'or
+3 block
+header/ avec mon nom prenom ma fonction et ma photos
+aside ou à propos qui contient mes  informations de contact et qui parle un peu de moi
+main qui représente la petie principal et qui contient mes experiences pro que ce soit mes formations et mes postes occupés
+
+ma fonction est en h1 "developpeur web" plutot que mon nom.  Le H1 ( est le titre principal d’une page internet. Il existe 6 niveaux de H possibles : du H1 au H6. Ces différents niveaux de titres servent à structurer une page et à indiquer aux robots des moteurs de recherche quels sont les titres et sous-titres.
+Google saura donc quel est le titre principal de la page. Il peut ainsi définir le sujet principal de la page et savoir quelle est la thématique générale. Donc il est plus judicieux de mettre les mots clés de la page en h1 pour etre plus facilement trouvé. Par exemple une personne tapera plutot ébéniste dans google plutot que votre nom si elle vous connaissait deja elle passerait par les pages jaunes.
+
+d'ailleurs toujours pour amener la personne qui recherche un ébéniste à aller sur votre site il faut inserer une balise "meta description". La meta description est une balise HTML. Elle peut être définie comme l'en-tête d'un site Web.
+ca vient completer le referencement et ca améliore le referencement par les mots clés ., elle sert saussi à inciter l'internaute à cliquer sur le lien du site Web, en résumant le contenu qui l'attend.
+Pour être efficace et performante, une meta description doit être concise (une ou deux phrases) et ne pas dépasser les 160 caractères. Elle doit être unique à chaque page et décrire en quelques termes le contenu du site. Invisible sur le site Web en lui-même, elle apparaît sur le moteur de recherche comme Google, juste en dessous du lien du site
+<title> c'est ce qui va apparaitre dans l'onglet que je vais ouvrir
+
+POLICE rataché dans le head avec <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+ .
+j'en ai mis que deux dont une police hébergé. Puisque vu qu'on est sur internet on considère qu'il n'y a pas de soucis pour aller la chercher. J'en ai mis qu'une de police hébergé mais peut en mettre autant qu'on veut.Le sans cerif c'est  si jamais la police hébérgée est pas dispo
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> ça permet de définir les dimension de la page web
+> initial-scale=1.0"> profondeur initial  du zoom 
+
+tous les liens de contact sont clickable pour faciliter les prises de contact  donc l'email vous ouvrira votre boite mail avec mon contact vous n'avez plus qu'a rédiger votre mail.
+
+le site web souvre dans une nouvelle page avec la balise  target="_blank" si par exemple vous voulez envoyer votre client vers un blog ou un autre site internet ça va s'ouvrir a coté mais votre page est toujours ouverte et c'est encore plus important sur les téléphones qui empile les onglets au lieu de les mettre cote a cote. en terme de visibilite l'utilisateur reviendra sur le site.
+la je l'ai pas fais mais on peut rajouter la meme chose dans href du telephone avec la balise phone <a href="tel:+33500000000">Link text</a>
+
+
+
+le site est responsiv design  le Responsive Web Design (RWD) est une technique de conception d’interface digitale qui fait en sorte que l’affichage d’une quelconque page d’un site s’adapte de façon automatique à la taille de l’écran du terminal qui le lit
+Avec un smartphone, une tablette, un netbook, une TV connectée ou tout simplement un ordinateur, la page lui apparaîtra complète et ergonomique sans aucune manipulation à faire au niveau du zoom avant/arrière et de la barre de défilement horizontal. Le code du site adapte sa mise en page en fonction de l’écran qui présente ses pages. Il y a un redimensionnement automatique des blocs de contenus textuels et graphiques ainsi qu’une réorganisation de leur disposition.
+
+pour ça j'ai utilisé les mediaqueris dans ma feuille de style pour dire a mon site « Si la résolution de l'écran du visiteur est inférieure à tant, alors applique les propriétés CSS suivantes ». Ca me permet de changer l'apparence du site dans certaines conditions :par exemple si un ecranest de maximum 800 px le  se met en colonne ,  les loisirs en toute fin de site ce qui n'est vraiment pas la priorité des recruteurs , si il est de maximun 576 le titre est moins gros etc
+Les media queries sont donc des règles qui indiquent quand on doit appliquer des propriétés CSS.
+le réagencement du site sans perte d'informations
+
+
+Pour les delais de realisation de ce site j'ai mis un peu de temps car j'ai fais ma feuille de style " a la main" A mais  pour aller plus vite la j'en ai pas utiliser mais on peut me servir de frame work.
+
+Un framework est, comme son nom l’indique en anglais, un “cadre de travail“. L’objectif d’un framework est généralement de simplifier le travail des développeurs informatiques en leur offrant une architecture “prête à l’emploi” et qui leur permette de ne pas repartir de zéro à chaque nouveau projet.
+
+Bootstrap, un framework CSS, fait partie de ces outils qui accélèrent grandement un projet web. Il étend les possibilités du langage CSS en ajoutant plein de fonctionnalités et de composants. Je dirais plutôt, on peut avoir le même résultat que du CSS en utilisant seulement Bootstrap. Même si c’est un framework CSS, il ajoute également un plus au HTML et au Javascript.
+
+Bootstrap permet en gros de faire la présentation graphique d’un site, pour cela on utilise des classes spéciales que fournis ce framework. Bootstrap étant une grosse boite à outil CSS, on vient piocher chez lui les éléments et les composants dont on a besoin, pour cela il suffit de mettre une classe à nos éléments HTML pour qu’il puisse utiliser le framework. Une barre de navigation stylée ? Ajouter la classe .navbar à une balise nav ! Des boutons sympathiques ? Ajouter la classe .btn à une balise button !
+
+et le site est hébergé gratuitement sur github pages
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------Css (1em=16pixel)
+
+font-family : c'est la je viens chercher la police que j'ai attaché au début de mon index dans une balise link. j'ajoute sans-serif au cas ou la police que j'ai choisi ne sois pas pris en chage
+font-size la je choisis la taille de ma police 13px mais j'aurais pu choisir 0.8 em par exemple
+
+mon container j'ai laissé le margin en auto pour centrer mon element et qui s'adapte à chaque navigateur
+border pour creer un jolie cadre
+color c'est la couleur qu'aura mon texte principal
+box shadow pour creer un leger ombrage 
+
+text-align:justify
+il est en justify pour que Les bords gauche et droit du texte sont alignés avec les bord gauche et droit du paragraphe.
+
+ mon header je me suis servi des flexbox pour faire un display flex pour que mes élément se retrouvent sur la meme ligne
+
+j'ai choisi que mon titre est une largeur de 70% pour qu'il bien aligné avec le reste et que le blanc n'empiete pas sur la partie gauche jaune
+
+mon titre je lui met une position relative pour pouvoir le mettre exctement ou je veux
+text-transform: uppercase : En utilisant ce mot-clé, tous les caractères seront écrits en capitales
+
+sous-titre: :after avec rien dans content pour faire mon trait sous dev
+
+portrait je lui met une largeur de 30% pour qu'il ai la taille de la colonne un align center pour quil soit au milieu de ces 30%  et la meme couleur de fond que le reste de ma colonne
+
+-------------------------------------------aside et main
+
+Je fais un display flex pour avec mes partie aside et main l'une a coté de l'autre et plus l'une sous l'autre
+
+Dans aside je fais un disply flex, flex direction  colonne  et space between comme ca L'espace utilisé entre chaque élément est le même. Le premier élément est aligné sur le bord du conteneur et le dernier élément est aussi aligné sur le bord de l'élément.
+
+mon main je lui donne le reste de la largeur a utiliser 
+je lui fais un flex direction pour qu'il soit présenté en colonne et non les uns sous les autres
+
+mes lien je ne veux pas qu'ils soulignés
+quand je passe ma souris dessus je veux qu'il aient la meme couleur que mes titres à gauche
+
+* à propose je lui mets un flex 2 pour qu'il soit deux fois plus grand que les autres 
+
+cadres c'est mon contener de titre de ma partie gauche
+
+margin 8% 8% pour avoir une petite marge de chaque coté
+
+
+
