@@ -310,8 +310,7 @@ footer  {
   bottom: 0px;
   margin-bottom: 0px;
   padding: 0.1rem;
-  margin-left: 10%;
- margin-right: 10%;
+ 
     
         
 }
@@ -331,9 +330,7 @@ footer  {
     }
 }
 
-.footer{ width: auto;
-        box-shadow: none;
-        margin:auto;  }
+
 
 @media all and (max-width: 800px){  
 
@@ -446,10 +443,7 @@ footer  {
     width: 40%
 }
     
-    .footer{ width: auto;
-        box-shadow: none;
-        margin:auto;  }
-    
+  
 }
 
 @media all and (max-width: 576px){
@@ -489,9 +483,7 @@ footer  {
     }
 }
 
-.footer{ width: auto;
-        box-shadow: none;
-        margin:auto;  }
+
 
 
 
