@@ -306,7 +306,7 @@ footer  {
 ;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: sticky;
   bottom: 0px;
   margin-bottom: 0px;
   padding: 0.1rem;
