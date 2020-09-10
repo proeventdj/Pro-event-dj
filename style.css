@@ -531,6 +531,10 @@ footer  {
     footer{
         position: relative
     }
+    
+    .contactez_nous{
+    font-size: 1rem
+}
   
 }
 
